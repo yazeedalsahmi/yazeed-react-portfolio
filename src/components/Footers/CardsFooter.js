@@ -38,7 +38,7 @@ class CardsFooter extends React.Component {
   render() {
     return (
       <>
-        <footer className="footer has-cards">
+        {/*<footer className="footer has-cards">
           <Container className="container-lg">
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
@@ -62,8 +62,8 @@ class CardsFooter extends React.Component {
                 </Card>
               </Col>
             </Row>
-          </Container>
-          <Container>
+    </Container>*/}
+         {/* <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
@@ -183,8 +183,8 @@ class CardsFooter extends React.Component {
                 </Nav>
               </Col>
             </Row>
-          </Container>
-        </footer>
+         </Container>*/}
+       {/*</footer>*/}
       </>
     );
   }

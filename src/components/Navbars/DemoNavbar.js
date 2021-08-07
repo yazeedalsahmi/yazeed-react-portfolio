@@ -214,17 +214,17 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://www.linkedin.com/in/yazeed-alshami-356485202/"
                       id="tooltip356693867"
                       target="_blank"
                     >
                       <i className="fa fa-instagram" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
+                        linkedin
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
+                      Follow us on linkedin
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -246,7 +246,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      href="https://github.com/yazeedalsahmi"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -260,7 +260,7 @@ class DemoNavbar extends React.Component {
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Button
+                    {/*<Button
                       className="btn-neutral btn-icon"
                       color="default"
                       href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
@@ -272,7 +272,7 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text ml-1">
                         Download
                       </span>
-                    </Button>
+                    </Button>*/}
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>
